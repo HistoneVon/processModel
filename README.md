@@ -21,7 +21,7 @@
 ### 开发环境
 
 * Windows 10 Home
-* Jetbrains Clion
+* Jetbrains Clion 2021 **（建议直接使用Clion打开本仓库）**
 
 ### 本仓库包含
 
