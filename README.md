@@ -2,9 +2,32 @@
 
 > Author: fengclchn@outlook.com
 >
-> Date: 11/16/2022
+> Date: 11/16/2021
 
 [TOC]
+
+## 仓库介绍
+
+### 项目说明
+
+- 本仓库是哈尔滨工业大学（威海）操作系统课程某次课后作业（ZDJ）
+
+- 本仓库地址：https://github.com/HistoneVon/processModel.git
+
+- 作业题目
+
+  ![image-20220721231634647](https://histone-obs.obs.cn-southwest-2.myhuaweicloud.com/noteImg/image-20220721231634647.png)
+
+### 开发环境
+
+* Windows 10 Home
+* Jetbrains Clion
+
+### 本仓库包含
+
+* 源码：main.cpp
+* CMake构建配置：CMakeLists.txt（由Clion生成）
+* 程序介绍：见下
 
 ## 基本数据结构
 
@@ -195,7 +218,7 @@ int main() {
 }
 ```
 
-# 进程调度逻辑
+## 进程调度逻辑
 
 * 执行-3->等待
   * 如果有进程正在执行，则改变该进程的状态为等待，进入等待队列
@@ -211,6 +234,6 @@ int main() {
   * 如果有进程正在执行，则改变该进程的状态为就绪，进入就绪队列
   * 如果没有进程正在执行，则打印“没有进程正在执行”
 
-# 运行结果
+## 运行结果
 
 ![image-20211116150008934](https://histone-obs.obs.cn-southwest-2.myhuaweicloud.com/noteImg/image-20211116150008934.png)
